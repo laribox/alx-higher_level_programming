@@ -1,15 +1,14 @@
-#include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
-/****************************START*****************************/
 /**
- * insert_node - function: inserts a number into a linked list
- * @head: Points to the head of the linked lists
- * @number: refers to the digit or number to insert
+ * insert_node - function: insert a number in  a linked list
+ * @head:  head of the linked lists
+ * @number: digit or number to insert
  *
- * Return: If fail - NULL.
- *         Else - a pointer to the new node.
+ * Return: NULL if fail 
+ *         Else node.
  */
 listint_t *insert_node(listint_t **head, int number)
 {
@@ -35,4 +34,3 @@ listint_t *insert_node(listint_t **head, int number)
 
 	return (new);
 }
-/*************************STOP*********************************/
