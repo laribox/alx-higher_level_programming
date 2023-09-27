@@ -9,7 +9,7 @@ class Square:
         """init that data of Square.
 
         args:
-            size (int): the size of the square
+            size (int): the size of square
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
