@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """definition for class square"""
 
 
