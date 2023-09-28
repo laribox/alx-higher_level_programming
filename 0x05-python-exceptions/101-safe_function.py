@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""function that executes a function safely."""
 def safe_function(fct, *args):
     try:
         r = fct(*args)
