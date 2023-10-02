@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" this class represent the Rectangle with width and height and some functions"""
+"""
+this class represent the Rectangle 
+with width and height and some functions
+"""
 
 
 class Rectangle:
