@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This code creates a Rectangle class
-store width and height 
+store width and height
 """
 
 
