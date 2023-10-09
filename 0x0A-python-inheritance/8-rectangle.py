@@ -2,26 +2,10 @@
 """task 8. Rectangle"""
 
 
-class BaseGeometry:
-    """BaseGeometry class with methods"""
-    def integer_validator(self, name, value):
-        """Public instance method that validates `value`
-
-        Args:
-            name (str): Name
-            value: Value of `nam`
-
-        Raises:
-            TypeError if `value` is not an integer
-            ValueError if `value` is <= zero
-        """
-        if type(value) is not int:
-            raise TypeError("{} must be an integer".format(name))
-        if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
+baseG = __import__("7-base_geometry").BaseGeometry
 
 
-class Rectangle(BaseGeometry):
+class Rectangle(baseG):
     """a Rectangle class which inherits BaseGeometry"""
     def __init__(self, width, height):
         """instatiates the class"""
