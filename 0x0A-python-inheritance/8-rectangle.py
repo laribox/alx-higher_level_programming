@@ -2,10 +2,10 @@
 """task 8. Rectangle"""
 
 
-baseG = __import__("7-base_geometry").BaseGeometry
+parentClass = __import__("7-base_geometry").BaseGeometry
 
 
-class Rectangle(baseG):
+class Rectangle(parentClass):
     """a Rectangle class which inherits BaseGeometry"""
     def __init__(self, width, height):
         """instatiates the class"""
