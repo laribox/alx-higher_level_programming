@@ -4,10 +4,6 @@
 
 class BaseGeometry:
     """BaseGeometry class with methods"""
-    def area(self):
-        """raises an exception if method not implemented"""
-        raise Exception("area() is not implemented")
-
     def integer_validator(self, name, value):
         """Public instance method that validates `value`
 
