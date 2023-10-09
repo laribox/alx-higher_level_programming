@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 3. Same class or inherit from 
+Task 3. Same class or inherit from
 """
 
 
