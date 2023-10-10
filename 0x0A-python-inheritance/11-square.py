@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-task 11. Square #2 
+task 11. Square #2
 """
 
 
