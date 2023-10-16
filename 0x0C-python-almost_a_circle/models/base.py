@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Defines a base model class."""
 
+import turtle
 import json
 import csv
-import turtle
+
 
 class Base:
     """Represents the base model for Project 0x0C*.
