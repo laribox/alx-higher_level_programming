@@ -1,2 +1,2 @@
--- Script that list all databases in MYSQL server
-SHOW DATABASES;
+# 0x0D-SQL_introduction
+Learning SQL
