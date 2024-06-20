@@ -1,13 +1,15 @@
 #!/usr/bin/node
-const { dict } = require('./101-data');
-const result = {};
 
-for (const userId in dict) {
-  const occurrence = dict[userId];
+const dict = require('./101-data').dict;
+let result = {};
 
+for (let userId in dict) {
+  let occurrence = dict[userId];
+  
   if (!result[occurrence]) {
     result[occurrence] = [];
   }
 
   result[occurrence].push(userId);
 }
+
