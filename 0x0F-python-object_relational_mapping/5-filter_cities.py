@@ -14,11 +14,11 @@ if __name__ == "__main__":
     db = MySQLdb.connect(host="localhost", user=user,
                          passwd=pwd, db=db_name, port=3306)
     cur = db.cursor()
-    cur.execute("""SELECT cities.id, cities.name, states.name FROM
+    cur.execute("""SELECT cities.name FROM
                 cities INNER JOIN states ON states.id=cities.state_id
                 WHERE states.name=%s""", (state,))
     rows = cur.fetchall()
-    for row in rows:
-        print(row)
+    cities = list(row[0] for row in rows)
+    print(*cities, sep=", ")
     cur.close()
     db.close()
