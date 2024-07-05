@@ -10,6 +10,9 @@ found in the header of the response
 import urllib.request
 import sys
 
-url = sys.argv[1]
-with urllib.request.urlopen(url) as response:
-    print(response.headers.get('X-Request-Id'))
+if __name__ == "__main__":
+    """import the sys module and urllib module"""
+
+    with urllib.request.urlopen(sys.argv[1]) as response:
+        """open the url and save the response"""
+        print(response.headers.get('X-Request-Id'))
