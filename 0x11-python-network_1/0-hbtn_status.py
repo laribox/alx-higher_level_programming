@@ -5,7 +5,7 @@
 import urllib.request
 
 # Fetch the content from the URL
-with urllib.request.urlopen('http://python.org/') as response:
+with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
     res = response.read()
 
 # Print details about the response
