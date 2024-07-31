@@ -7,6 +7,6 @@ request.get(url, (error, response, body) => {
     console.error(error);
     return;
     }
-  console.log(`Title: ${JSON.parse(body).title}`);
+  console.log(`${JSON.parse(body).title}`);
 });
 
