@@ -5,6 +5,6 @@ const fs = require('fs');
 
 fs.writeFile(filename, text, 'utf-8', (error) => {
   if (error) {
-      console.error(error);
+    console.error(error);
   }
 });
