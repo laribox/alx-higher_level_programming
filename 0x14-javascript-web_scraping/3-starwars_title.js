@@ -6,7 +6,6 @@ request.get(url, (error, response, body) => {
   if (error) {
     console.error(error);
     return;
-    }
+  }
   console.log(`${JSON.parse(body).title}`);
 });
-
